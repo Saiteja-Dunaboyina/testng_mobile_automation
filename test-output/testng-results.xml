@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-02T10:15:42 IST" name="Suite" finished-at="2024-02-02T10:19:39 IST" duration-ms="236561">
+    <groups>
+    </groups>
+    <test started-at="2024-02-02T10:15:42 IST" name="Test" finished-at="2024-02-02T10:19:39 IST" duration-ms="236561">
+      <class name="com.booking.com.test.BookingTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:15:12 IST" name="setUp" finished-at="2024-02-02T10:15:42 IST" duration-ms="30933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:15:42 IST" name="startReport" finished-at="2024-02-02T10:15:43 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="initializePages()[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:15:43 IST" name="initializePages" finished-at="2024-02-02T10:15:43 IST" depends-on-methods="com.booking.com.base.Base.startReport" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePages -->
+        <test-method signature="login()[pri:1, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:15:43 IST" name="login" finished-at="2024-02-02T10:16:22 IST" duration-ms="38936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:16:22 IST" name="getResult" finished-at="2024-02-02T10:16:22 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=BookingTest.login()[pri:1, instance:com.booking.com.test.BookingTest@1ef3efa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="hotelBooking()[pri:2, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:16:22 IST" name="hotelBooking" finished-at="2024-02-02T10:19:38 IST" duration-ms="196507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelBooking -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:19:38 IST" name="getResult" finished-at="2024-02-02T10:19:38 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hotelBooking status=SUCCESS method=BookingTest.hotelBooking()[pri:2, instance:com.booking.com.test.BookingTest@1ef3efa8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:19:38 IST" name="endReport" finished-at="2024-02-02T10:19:39 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.booking.com.test.BookingTest@1ef3efa8]" started-at="2024-02-02T10:19:39 IST" name="tearDown" finished-at="2024-02-02T10:19:41 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.booking.com.test.BookingTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
